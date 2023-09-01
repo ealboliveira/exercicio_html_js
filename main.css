@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 6px;
+    margin-bottom: 6px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: rgb(52, 210, 121);
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
